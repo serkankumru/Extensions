@@ -9,7 +9,9 @@ using System.Collections.Generic;
 namespace Haberler.Extensions
 {
     public static class ImageUpload
-    {
+    { 
+        //int postImages = ImageUpload.ImageAddEditor(ImagePost);
+        
         public static int ImageAddEditor(HttpPostedFileBase ImagePost)
         {
             string FilePath = "";
